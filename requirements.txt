@@ -1,0 +1,18 @@
+# Core
+# RTX 50-series (Blackwell) GPUs need a CUDA 12.8 build of PyTorch:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+numpy
+tiktoken
+pyarrow
+tqdm
+matplotlib
+psutil
+
+# Notebook / chat widget
+jupyter
+ipykernel
+ipywidgets
+
+# Only needed to download the trained weights from Hugging Face
+huggingface_hub

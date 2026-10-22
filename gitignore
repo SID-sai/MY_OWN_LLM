@@ -1,0 +1,39 @@
+# Model weights and checkpoints (hosted on Hugging Face instead)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+ckpt/
+
+# Training data and token streams (multi-GB)
+*.bin
+*.parquet
+*.arrow
+data/
+datasets/
+fineweb_tokens.bin
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.log
+.env
